@@ -85,19 +85,20 @@ If you can't remember it, just hover your pointer on top of a suggestion to make
 
 **Complex algoritms generation**
 
-- In the `albums-api/Controllers/AlbumController.cs` file try to complete the `GetByID` method by replace the current return:
+- In the `albums-api-java/src/main/java/com/ghcopilot/album/controllers/AlbumController.java` file try to complete the `getAlbumById` method by replace the current return:
 
-```cs
-// GET api/<AlbumController>/5
-[HttpGet("{id}")]
-public IActionResult Get(int id)
-{
-    //here
-}
+```java
+    // GET: /albums/{id}
+    @GetMapping("/{id}")
+    public ResponseEntity<Album> getAlbumById(@PathVariable int id) {
+        // Assuming a method Album.getById(id) exists
+        Album album = Album.getById(id);
+        return ResponseEntity.ok(album);
+    }
 ```
 
 - In the same file you can show other prompts like:
-```cs
+```java
 // function that search album by name, artist or genre
 
 // function that sort albums by name, artist or genre
@@ -148,7 +149,7 @@ Here is an example in the `albums-viewer/routes/index.js` file. Insert a line an
 router.get("/", async function (req, res, next) {
   try {
     // Invoke the album-api via Dapr
-    const url = `http://127.0.0.1:${DaprHttpPort}/v1.0/invoke/${AlbumService}/method/albums`;
+    const url = `http://127.0.0.1:8080/albums`;
 
 ```
 
@@ -157,18 +158,7 @@ Continue to play with it and see what happens on other pieces of code.
 ### standardized documentation comment (JavaDoc, JsDoc, etc...)
 
 For this one, to trigger the documentation comment generation, you need to respect the specific comment format:
--  `/**` (for JS/TS) in the `index.js` file for example
-- `///` for C# in the `AlbumController.cs` of the AlbumApi file for example
-
-```cs
-/// <summary>
-/// function that returns a single album by id
-/// </summary>
-/// <param name="id"></param>
-/// <returns></returns>
-[HttpGet("{id}")]
-public IActionResult Get(int id)
-```
+-  `/**` (for JS/TS and Java) in the `index.js` file for example
 
 
 ## Code Translation
@@ -290,98 +280,3 @@ describe('validateDate', () => {
 ```
 
 *You can add other `it` block to add more test cases and also add the tests for the other functions. For example try add a new `it` block for the validateDate function to test that it throws and error when given en empty string.*
-
-## Refactoring
-
-TBD
-
-## Writing CI pipelines
-
-*Copilot will help you in writing your pipeline definition files to generate the code for the different steps and tasks. Here are some examples of what it can do:*
-- *generate a pipeline definition file `from scratch`*
-- *accelerate the writing of a pipeline definition file by `generating the code` for the different `steps, tasks and pieces of script`*
-- *help `discover marketplace tasks and extensions` that match your need*
-
-### Step 1: generate from scratch
-
-- Create a new file `pipeline.yml` in the `.github/workflow` folder of the project and start typing the following prompt:
-
-```yml
-# Github Action pipeline that runs on push to main branch
-# Docker build and push the album-api image to ACR
-```
-
-*Copilot will generate the pipeline block by block. Generation pipelines Yaml, you will sometimes need to jump to a new line to trigger the generation of the next block more often than with other type of code.*
-
-*It will often generate a task with a few errores coming from bad indentation or missing quote around a task name. You can easily fix these with your IDE and your developer skills :)*
-
-
-### Step 2: add tasks from prompts
-
-- You probably have a github action workflow with at least a "login" task to your container registry and a "docker build and deploy" task. Add a new comment after those tasks to tag the docker image with the github run id and push it to the registry:
-
-```yml
-# tag the image with the github run id and push to docker hub
-```
-
-- you can play with other prompts like:
-```yml
-# run tests on the album-api image
-
-# deploy the album-api image to the dev AKS cluster
-```
-
-### Step 3: add scripts from prompts
-
-- Copilot is also very usefull when you need to write custom script like the following example:
-
-```yml
-# find and replace the %%VERSION%% by the github action run id in every appmanifest.yml file
-```
-
-## Infra As Code
-
-Copilot can also help you write Infrastructure as code. It can generate code for `Terraform, ARM, Bicep, Pulumi, etc...` and also `Kubernetes manifest files`.
-
-### Bicep
-- open the `main.bicep`file in `iac/bicep` folder and start typing prompts at the end of the file to add new resources:
-
-```js
-// Container Registry
-
-// Azure Congitive Services Custom Vision resource
-```
-
-### Terraform
-- open the `app.tf`file in `iac/terraform` folder and start typing prompts at the end of the file to add new resources:
-
-```yml
-# Container Registry
-
-# Azure Congitive Services Custom Vision resource
-```
-
-
-## Writing readme.md and documentation
-
-Copilot is also very powerfull to help you write documentation. It can generate `markdown` and `html` code and accelerate the writing of your readme.md files like for this one for example.
-
-You can show that by creating a new file `demo.md` in the root of the project and start typing the following prompt:
-
-```md
-# Github Copilot documentation
-This documentation is generated with Github Copilot to show what the tool can do.
-
-##
-```
-
-From there by starting a new line with a secondary level title it will start generating the content of the documentation and it will showcase how it will accelerate the documentation writing process.
-
-
-# Extra: Copilot Labs
-
-WIP
-
-# Extra: Copilot X - Preview
-
-WIP
