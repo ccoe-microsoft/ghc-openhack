@@ -14,9 +14,9 @@ Constitution des équipes de 3 à 5 personnes et présentation du challenge.
 - Thème: A VENIR
 - Le starter de l'application sera fourni pour accélérer le démarrage du challenge.
 
-## Ouverture du Github Copilot avanacé (extensions) + plateforme GitHub + IA (1h)
+## Ouverture sur Github Copilot avancé (extensions) + plateforme GitHub + IA (1h)
 Présentation
 
 ## Debrief (30 min)
 - Les + et - de l'utilisation de Github Copilot
-- Retours sur l'organisation du Open Hack
+- Retours sur l'organisation de l'Open Hack
