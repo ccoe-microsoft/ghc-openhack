@@ -15,7 +15,7 @@ Constitution des équipes de 3 à 5 personnes et présentation du challenge.
   - **Copilot Adventures** : https://github.com/microsoft/CopilotAdventures
     
     Initiation à GitHub Copilot avec des challenges de difficulté croissante orientés algorithmie.
-  - **MOAW Github Copilot demo Java** : 
+  - **MOAW Github Copilot demo Java** : https://github.com/ccoe-microsoft/ghc-openhack/blob/main/Challenges/gh-copilot-demo/1-COPILOT_DEMOS.md
 
     Découverte de GitHub Copilot sur un projet de démonstration avec un back en Java et un front en JavaScript.
   - **MOAW Github Copilot demo .Net** (step 1 & 2) : https://moaw.dev/workshop/github-copilot/?step=0
