@@ -1,37 +1,27 @@
-<!-- Generate a focumentation with a list of sample prompt to demo github copilot capacities -->
+# Get ready
+This first challenges needs you to clone the following GitHub Repository: Github Copilot Demo
 
-# Github Copliot demo (Fork from Azure Container Apps: Dapr Albums Sample)
+This repository is a code starter that will help you experiment all capabilities with GitHub Copilot. Take the time to look at the architecture design displayed on the page and when you're ready, clone the repository from the command line and open it in VS Code.
+7
+```
+git clone https://github.com/Philess/gh-copilot-demo
+cd gh-copilot-demo
+code .
+```
 
-This a list of prompts xith explaination you can use to demo or simply discover Github Copilot capacities.
-
-1. To see this demos you can watch the **Azure Insider's Café replay** on Github Copilot: 
-- [Sharepoint Link](https://teams.microsoft.com/l/message/19:9e3c0d7097f34928b16f28d5ccc34b5a@thread.skype/1681479717297?tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&groupId=98c78e40-e3a1-43ab-9891-7fdc081c6136&parentMessageId=1679658115567&teamName=Club%20Azure%20Insiders&channelName=%F0%9F%92%BB%20AppDev&createdTime=1681479717297) [`Microsoft Internal`]
-- [External sharing link](https://info.microsoft.com/FR-DevOps-VDEO-FY23-04Apr-19-Replay-Cafe-Insiders-GitHub-Copilot-SRGCM9963_LP01-Registration---Form-in-Body.html)
-
-2. You can find out more on the official **Github Copilot Demos repo** here: https://github.com/gh-msft-innersource/Copilot-demo-templates/ [`Microsoft Internal`]
-
-<br>
-
-# Quickstart
-
-## Install & Activate
-
-TBD
-
-## VSCode Shortcuts
-
+# Start playing with GitHub Copilot
 Once you start typing a prompt and copilot generate proposals, you can use the following shortcuts to interact with Copilot:
 
-- `tab` to accept the current suggestion entirely (`most common`)
-- `ctrl + right arrow` to accept word by word the suggestion (`for partial use`)
-- `alt + ^` to move to next suggestion	
-- `shift + tab` to go back to the previous suggestion	
+- `tab` to accept the current suggestion entirely (most common)
+- `ctrl + right arrow` to accept word by word the suggestion (for partial use)
+- `alt + ^` to move to next suggestion
+- `shift + tab` to go back to the previous suggestion
 - `ctrl+enter` to display the copilot pane
 
 If you can't remember it, just hover your pointer on top of a suggestion to make them appear.
 <br>
 
-# Demos
+# Challenge
 
 ## Natural Language Translations
 

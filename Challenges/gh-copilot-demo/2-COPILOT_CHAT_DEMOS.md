@@ -20,8 +20,8 @@ You need to clone the following GitHub Repository: GitHub Copilot Demo
 This repository is a code starter that will help you experiment with all capabilities of GitHub Copilot. Take the time to look at the architecture design displayed on the page and when you're ready, clone the repository from the command line and open it in VS Code.
 
 ```bash
-git clone https://github.com/Philess/gh-copilot-demo
-cd gh-copilot-demo
+git clone https://github.com/ccoe-microsoft/ghc-openhack
+cd ghc-openhack
 code .
 ```
 
