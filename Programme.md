@@ -11,7 +11,18 @@ Constitution des équipes de 3 à 5 personnes et présentation du challenge.
 - Test du bon fonctionnement de Github Copilot.
 
 ## Challenges (3h)
-- Thème: A VENIR
+- Au choix:
+  - **Copilot Adventures** : https://github.com/microsoft/CopilotAdventures
+    
+    Initiation à GitHub Copilot avec des challenges de difficulté croissante orientés algorithmie.
+  - **MOAW Github Copilot demo Java** : 
+
+    Découverte de GitHub Copilot sur un projet de démonstration avec un back en Java et un front en JavaScript.
+  - **MOAW Github Copilot demo .Net** (step 1 & 2) : https://moaw.dev/workshop/github-copilot/?step=0
+
+    Découverte de GitHub Copilot sur un projet de démonstration avec un back en Java et un front en JavaScript.
+  - **Copilot Hackathon** : https://github.com/microsoft/CopilotHackathon/blob/main/exercisefiles/springboot/README.md
+
 - Le starter de l'application sera fourni pour accélérer le démarrage du challenge.
 
 ## Ouverture sur Github Copilot avancé (extensions) + plateforme GitHub + IA (1h)
