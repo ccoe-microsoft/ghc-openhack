@@ -20,7 +20,7 @@ Constitution des équipes de 3 à 5 personnes et présentation du challenge.
     Découverte de GitHub Copilot sur un projet de démonstration avec un back en Java et un front en JavaScript.
   - **MOAW Github Copilot demo .Net** (step 1 & 2) : https://moaw.dev/workshop/github-copilot/?step=0
 
-    Découverte de GitHub Copilot sur un projet de démonstration avec un back en Java et un front en JavaScript.
+    Découverte de GitHub Copilot sur un projet de démonstration avec un back en .Net et un front en JavaScript.
   - **Copilot Hackathon** : https://github.com/microsoft/CopilotHackathon/blob/main/exercisefiles/springboot/README.md
 
 - Le starter de l'application sera fourni pour accélérer le démarrage du challenge.
