@@ -17,7 +17,7 @@
 **Objectif :** Ajouter la fonctionnalité `findByName dans le contrôleur.
 
 ```java
-@GetMapping("/findByName")
+@GetMapping("/name/{name}")
 ```
 
 <img src="findByName.gif" alt="findByName" width="800">
