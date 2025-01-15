@@ -1,6 +1,3 @@
-## Lien de la réunion
-https://events.teams.microsoft.com/event/a695ba19-bb07-4aa5-aacf-ea229be7096b@8b87af7d-8647-4dc7-8df4-5f69a2011bb5
-
 ## Accueil (15 min)
 
 ## Introduction à GitHub Copilot (1h)
@@ -34,3 +31,8 @@ Présentation
 ## Debrief (30 min)
 - Les + et - de l'utilisation de Github Copilot
 - Retours sur l'organisation de l'Open Hack
+
+
+## Liens utiles
+**Lien de la réunion pour les Q&R**  
+https://events.teams.microsoft.com/event/a695ba19-bb07-4aa5-aacf-ea229be7096b@8b87af7d-8647-4dc7-8df4-5f69a2011bb5
