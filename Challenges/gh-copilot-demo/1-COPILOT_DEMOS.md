@@ -81,9 +81,7 @@ If you can't remember it, just hover your pointer on top of a suggestion to make
     // GET: /albums/{id}
     @GetMapping("/{id}")
     public ResponseEntity<Album> getAlbumById(@PathVariable int id) {
-        // Assuming a method Album.getById(id) exists
-        Album album = Album.getById(id);
-        return ResponseEntity.ok(album);
+
     }
 ```
 
