@@ -35,4 +35,4 @@ Présentation
 
 ## Liens utiles
 **Lien de la réunion pour les Q&R**  
-https://events.teams.microsoft.com/event/a695ba19-bb07-4aa5-aacf-ea229be7096b@8b87af7d-8647-4dc7-8df4-5f69a2011bb5
+https://events.teams.microsoft.com/event/865abb07-2366-456d-8449-ff0df2770ca4@8b87af7d-8647-4dc7-8df4-5f69a2011bb5
