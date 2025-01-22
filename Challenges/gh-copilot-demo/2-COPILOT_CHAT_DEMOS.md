@@ -81,7 +81,7 @@ You can prepend your chat inputs with a specific topic name to help Copilot give
 
 Copilot can help you find security issues in your code and fix them. It can also help you find bad practices in your code and fix them. Let’s see how it works.
 
-Open the `album-api/Controllers/UnsecuredController.cs` file and type questions like these to the chat:
+Open the `album-api/Controllers/UnsecuredController.java` file and type questions like these to the chat:
 ```
 > Can you check this code for security issues? 
 > Do you see any quality improvements to do on this code?
@@ -103,7 +103,7 @@ You can use Copilot Chat to explain code to you. It can explain the code in natu
 
 More impressively, Copilot Chat can help you refactor your code. It can help you rename variables, extract methods, extract classes, etc.
 
-You can try some of these commands on the `album-api/Controllers/UnsecuredController.cs` file:
+You can try some of these commands on the `album-api/Controllers/UnsecuredController.java` file:
 ```
 > Extract methods 
 > Create Async version of each method when it makes sense
@@ -120,7 +120,7 @@ In case of dealing with legacy code like COBOL, for example, it can be very usef
 
 Copilot can also help you generate tests for your code. It can generate unit tests, integration tests, end-to-end tests, and load testing tests with JMeter scripts, for example.
 
-Open the `album-api/Controllers/UnsecuredController.cs` file and type questions like these to the chat:
+Open the `album-api/Controllers/UnsecuredController.java` file and type questions like these to the chat:
 ```
 > Generate a unit tests class for this code
 ```
