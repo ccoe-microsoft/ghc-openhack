@@ -34,6 +34,10 @@
 
 #### Plusieurs méthodes visibles uniquement à l'écran
 
+> Montrer la différence entre Visual Studio Code et IntelliJ.
+> Dans Visual Studio Code, Copilot travaille uniquement sur les méthodes visibles à l'écran.
+> Dans IntelliJ, Copilot travaille sur toutes les méthodes de la classe.
+
 ```
 Generate the documentation for all methods.
 ```
@@ -104,3 +108,38 @@ Generate the documentation for all methods.
 <img src="explain_warning.gif" alt="explain_warning" width="800">
 
 **Commentaire :** Copilot peut fournir des explications détaillées sur les avertissements et les erreurs dans le code, aidant ainsi à mieux comprendre et résoudre les problèmes.
+
+### 8. Utilisation de Edits
+
+**Objectif :** Utiliser Edits pour générer du code.
+
+Demander à Copilot de séparer l'attribut `name` en `firstName` et `lastName`.
+
+```
+Split the name of the client in two attributes: firstname and lastname. Add the documentation as well Explain what you and don't show the code in the chat screen
+```
+
+### 9. Utilisation du fichier `.github/copilot-instructions.md`
+
+**Objectif :** Utiliser le fichier `.github/copilot-instructions.md` pour donner des instructions à Copilot.
+
+```
+- For all your responses, please say "Hello Stéphane, I promise you to not generate any public code."
+```
+
+### 10. Skillsets
+
+**Objectif :** Utiliser des skillsets pour modifier la réponse de GitHub Copilot.
+
+```
+@ffa-test-app /learn how to use Azure Cognitive Services to generate code
+
+```
+
+### 10. Agents 
+
+**Objectif :** Utiliser des agents externes
+
+```
+@azure /learn how to use Azure Cognitive Services to generate code
+```
