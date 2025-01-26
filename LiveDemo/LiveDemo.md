@@ -34,9 +34,17 @@
 
 #### Plusieurs méthodes visibles uniquement à l'écran
 
+```
+Generate the documentation for all methods.
+```
+
 <img src="methods_documentation_partial.gif" alt="methods_documentation_partial" width="800">
 
 #### Toutes les méthodes de la classe
+
+```
+Generate the documentation for all methods.
+```
 
 <img src="methods_documentation_complete.gif" alt="methods_documentation_complete" width="800">
 
